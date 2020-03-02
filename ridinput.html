@@ -1,0 +1,126 @@
+<script>
+  function showNumber(a) {
+  document.getElementsByClassName("headingNumber")[0].innerHTML += a;
+}
+</script>
+
+<h1>Find numbers & enter your phone number:</h1>
+<div class="heading">
+  <div class="headingNumber"></div>
+</div> 
+<div class="square"> 
+  <div class="cursor"></div>
+  <div class="numbers">
+    <div class="number number-0"onclick="showNumber(0)">0</div>
+    <div class="number number-1" onclick="showNumber(1)">1</div>
+    <div class="number number-2" onclick="showNumber(2)">2</div>
+    <div class="number number-4" onclick="showNumber(4)">4</div>
+    <div class="number number-5"onclick="showNumber(5)">5</div>
+    <div class="number number-6"onclick="showNumber(6)">6</div>
+    <div class="number number-7"onclick="showNumber(7)">7</div>
+    <div class="number number-8"onclick="showNumber(8)">8</div>
+    <div class="number number-9"onclick="showNumber(9)">9</div>
+  </div>
+</div>
+
+<style> 
+h1{
+  font-size: 20px;
+  font-family: times new roman;
+}
+.heading{
+  width: 400px;
+  height: 20px;
+}
+
+.headingNumber{
+  float: center;
+  width: 20px;
+  height: 40px;
+  color: black;
+}
+
+.square{
+  width: 400px;
+  height: 400px;
+  background: black;
+}
+.number{
+  position: absolute;
+  font-size: 25px;
+}
+.number-0{
+  top: 110px;
+  left: 300px;
+  color: black;
+}
+.number-1{
+  top: 430px;
+  left: 300px;
+  color: black;
+}
+.number-2{
+  top: 100px;
+  left: 50px;
+  color: black;
+}
+.number-4{
+  top: 350px;
+  left: 200px;
+  color: black;
+}
+.number-5{
+  top: 255px;
+  left: 240px;
+  color: black;
+}
+.number-6{
+  top: 250px;
+  left: 20px;
+  color: black;
+}
+ .number-7{
+  top: 400px;
+  left: 100px;
+  color: black;
+  }
+.number-8{
+  top: 170px;
+  left: 130px;
+  color: black;
+}
+.number-9{
+  top: 190px;
+  left: 370px;
+  color: black;
+}
+
+.number-0:hover{
+  color: white;
+}
+.number-1:hover{
+  color: white;
+}
+.number-2:hover{
+  color: white;
+}
+.number-4:hover{
+  color: white;
+}
+.number-5:hover{
+  color: white;
+}
+.number-6:hover{
+  color: white;
+}
+.number-7:hover{
+  color: white;
+}
+.number-8:hover{
+  color: white;
+}
+.number-9:hover{
+  color: white;
+}
+
+</style>
